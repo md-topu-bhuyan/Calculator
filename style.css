@@ -1,0 +1,48 @@
+*{
+     margin: 0px;
+     padding: 0px;
+}
+
+h1{
+     text-align: center;
+}
+.card{
+     margin: 0 auto;
+     max-width: 350px;
+     text-align: center;
+     margin-top: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+     transition: 0.3s;
+     font-size: 0;
+}
+.card:hover{
+     box-shadow: 0 16px 0 rgb(0, 0, 0, 0.2);
+}
+.calc-head #result{
+     height: 80px;
+     width: 335px;
+     font-size: 32px;
+     font-weight: bold;
+     text-align: right;
+     padding: 0 10px;
+     letter-spacing: 2px;
+     background-color:rgb(229, 219, 219);
+     width: 93%;
+}
+.btn{
+     width: 87px;
+     height: 70px;
+     font-weight: bold;
+     font-size: 16px;
+     background-color: black;
+     color: white;
+}
+.btn-style{
+     background-color: #5F4BB6;
+}
+.btn-style1{
+     background-color: orange;
+}
+.btn:hover{
+     background-color: aqua;
+}
